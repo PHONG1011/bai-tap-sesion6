@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      color: #dff0d8;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      padding: 20px;
+    }
+
+    .sidebar {
+      width: 25%;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+    }
+
+    .sidebar h3 {
+      margin-bottom: 10px;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-bottom: 8px;
+      text-decoration: none;
+      color: #3366cc;
+    }
+
+    .content {
+      width: 75%;
+      padding: 0 20px;
+    }
+
+    .post {
+      margin-bottom: 40px;
+    }
+
+    .post h2 {
+      margin-bottom: 10px;
+    }
+
+    .post img {
+      width: 200px;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .post p {
+      font-size: 14px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Categories</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h3>Chuyên mục</h3>
+      <a href="#">CSS</a>
+      <a href="#">JavaScript</a>
+      <a href="#">HTML</a>
+    </aside>
+    <main class="content">
+      <div class="post">
+        <h2>Bài viết 1</h2>
+        <img src="https://s3-sgn09.fptcloud.com/codelearnstorage/Upload/Blog/7-bai-hoc-de-doi-cho-lap-trinh-vien-moi-vao-nghe-63720635203.1336.jpg" alt="Bài viết 1">
+        <p>7 Bài Học Để Đời Cho Lập Trình Viên Mới Vào Nghề</p>
+      </div>
+      <div class="post">
+        <h2>Bài viết 2</h2>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUsfJNUHe5PAPIcwsjy2doWliUB4gu6DjugKMchU2B6b5Ue-dYgzVkDz9XjnZOAAdsAtjFSWMnrC7fnew4xXuCJcjqBMdFzRlPpEL_2vMmEFdof8RxnW4JK_ass05TDSINQWm8W_2WSNG2/s1600/mat+nen+tang+lap+trinh.jpg" alt="Bài viết 2">
+        <p>BÀI VIẾT DÀNH CHO NHỮNG BẠN ĐANG HỌC CNTT LẬP TRÌNH VÀ ĐANG ỨC CHẾ VIỆC HỌC CỦA BẢN THÂN</p>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    Liên hệ: email@example.com
+  </footer>
+
+</body>
+</html>
