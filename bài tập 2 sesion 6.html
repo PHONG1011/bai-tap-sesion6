@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng ký</title>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%; 
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: darkblue;
+}
+form {
+  width: 300px; 
+  margin: 50px auto; 
+}
+h1{
+  text-align: center;
+}
+</style>
+
+</head>
+<body>
+  <h1>Đăng Ký</h1>
+  <form class ="dangky">
+    <label for="name">Tên:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="password">Mật khẩu:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <input type="submit" value="Đăng ký" >
+
+</body>
+</html>
