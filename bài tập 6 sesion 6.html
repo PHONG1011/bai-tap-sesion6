@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty & Fashion</title>
+  <style>
+    /* Reset cơ bản */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff5722;
+      margin-bottom: 15px;
+      border-left: 5px solid #ff5722;
+      padding-left: 10px;
+    }
+
+    .star-section {
+      margin-bottom: 30px;
+    }
+
+    .star-section img {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    .star-section h2 {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #444;
+    }
+
+    .star-section p {
+      margin-bottom: 10px;
+    }
+
+    .fashion-section {
+      margin-bottom: 30px;
+    }
+
+    .fashion-section img {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    .fashion-section h2 {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #444;
+    }
+
+    .fashion-section p {
+      margin-bottom: 10px;
+    }
+
+    .ad-section {
+      margin-top: 20px;
+      padding: 30px;
+      background-color: rgb(245, 240, 240);
+      border: 1px solid hsl(0, 0%, 96%);
+      border-radius: 20px;
+      display: flex;
+    }
+
+    .ad-section img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .ad-section .ad-content {
+      font-size: 14px;
+      margin-left: 20px;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+
+    .accordion-container {
+      border-top: 1px solid #ccc;
+    }
+
+    .accordion-item {
+      border: 1px solid #ddd;
+      border-top: none;
+      border-radius: 5px;
+    }
+
+    .accordion-header {
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      width: 100%;
+      text-align: left;
+      font-size: 16px;
+    }
+    .accordion-header1 {
+      background-color: #a19ae0;
+      font-weight: bold;
+    }
+
+    .accordion-body {
+      padding: 10px;
+      display: block;
+    }
+
+    .accordion-body.hidden {
+      display: none;
+    }
+    .fashion-content {
+  position: relative; /* Đặt thẻ chứa ảnh làm gốc tham chiếu */
+  display: inline-block; /* Đảm bảo nội dung và ảnh nằm trong cùng một khối */
+}
+
+.fashion-content img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+  display: block; /* Đảm bảo ảnh không bị ảnh hưởng bởi nội dung */
+}
+
+.section-abc {
+      position: absolute;
+      bottom: 0;
+      background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+      color: white;
+      padding: 10px;
+      font-size: 15px;
+      border-radius: 0 0 5px 5px
+}
+    
+
+    .brands {
+      font-size: 14px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .sponsored {
+      font-size: 12px;
+      color: #999;
+      margin-bottom: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- STAR Section -->
+  <div class="star-section">
+    <div class="section-title">STAR</div>
+    <img src="https://newsimg.koreatimes.co.kr/2025/01/09/d78a2e0b-7709-440a-a328-0a7a66131580.jpg" alt="Star Image 1" width="300" height="409">
+    <img src="https://s.yimg.com/ny/api/res/1.2/Q57QzkevHHsv36GWBsrYHw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTg3Mw--/https://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/d92204d875e8bba1328cfe4057b31372" alt="Star Image 2" width="300" height="409">
+    <h2>"Song Hye Kyo thừa nhận ly hôn Song Joong Ki vì bất đồng sinh con", có gì đó sai sai!</h2>
+    <p>Tờ Sina vừa bất ngờ đăng tải tin tức khẳng định Song Hye Kyo lần đầu tiết lộ lý do ly hôn Song Joong Ki.</p>
+    <hr>
+    <p><strong>Sự thật về việc Á hậu Phương Nhi âm thầm xây dựng biệt thự khủng như lâu đài.</strong></p>
+    <hr>
+    <p><strong>Rộ ảnh thân mật của Soobin và Hoa hậu Thanh Thủy.</strong></p>
+  </div>
+
+  <!-- BEAUTY & FASHION Section -->
+  <!-- BEAUTY & FASHION Section -->
+<div class="fashion-section">
+  <div class="section-title">BEAUTY & FASHION</div>
+  <div class="fashion-content">
+    <img src="https://kenh14cdn.com/203336854389633024/2025/1/17/-january-16-2025-co-the-la-hinh-anh-ve-1-nguoi-toc-ao-co-lo-vong-chocker-chan-vay-ngan-vay-lien-va-van-ban-1737089870322442416533-1737096008259-1737096008825222106627.jpg" alt="Fashion Image"width="700" height="450">
+    <div class="section-abc">
+      Sao nữ mở bát thị phi Kbiz 2024 "tẩy trắng" hoàn toàn, đầu năm mới nhá hàng sắp đụng độ Jennie.
+    </div>
+  </div>
+  <p><strong>Best Of Fashion 2024: Bag Charm tung hoành, Jennie “đánh sập internet”, Bella Hadid tái xuất...</strong></p>
+  <hr>
+  <p><strong>Công chúa Kpop “già trân” nhưng không ai chê.</strong></p>
+</div>
+
+  <!-- Advertisement Section -->
+  <div class="ad-section">
+    <img src="https://greenlink.com.vn/upload/images/hinh-nen-keo-ngot-cho-iphone-36.jpg" alt="Quảng cáo">
+    <div class="ad-content">
+      <p class="sponsored"><strong>Tài trợ</strong></p>
+      <h2>Bí mật sau chuỗi thành công của "đế chế" kẹo ngọt đã chinh phục tuổi thơ mọi thế hệ người Việt.</h2>
+      <p class="brands">BigBabol, Alpenliebe, Mentos, HappyDent, Golia, Chupa Chups...</p>
+      <a href="#">Xem thêm tại kenh14.vn</a>
+    </div>
+  </div>
+
+  <!-- Accordion Section -->
+  <div class="accordion-container">
+    <p>Component accordion:</p>
+
+    <div class="accordion-item">
+      <div class="accordion-header1" onclick="toggleAccordion(this)">Accordion Item #1</div>
+      <div class="accordion-body">
+        <p><strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(this)">Accordion Item #2</button>
+      <div class="accordion-body hidden">
+        <p>Thông tin mục 2.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header" onclick="toggleAccordion(this)">Accordion Item #3</button>
+      <div class="accordion-body hidden">
+        <p>Thông tin mục 3.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Beauty & Fashion. All rights reserved.
+  </footer>
+
+</body>
+</html>
